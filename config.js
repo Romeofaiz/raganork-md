@@ -25,7 +25,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("No session found, add session before starting bot")
 module.exports = {
     VERSION: 'v4.0.0',
-    ALIVE: process.env.ALIVE || "https://i.imgur.com/QPoHtT2.jpeg Hey {sender}, I'm alive \n Uptime: {uptime}",
+    ALIVE: process.env.ALIVE || "https://i.imgur.com/iiE0PVV.jpeg Hey {sender}, I'm alive \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
@@ -51,7 +51,7 @@ module.exports = {
     SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || '',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '919074309534-1632403322@g.us,120363116963909366@g.us',
-    BOT_INFO: process.env.BOT_INFO || '𝗥𝗢𝗠𝗘𝗞 𝗫𝗗 ;Skl11;0;https://i.imgur.com/QPoHtT2.jpeg;https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih',
+    BOT_INFO: process.env.BOT_INFO || '𝗥𝗢𝗠𝗘𝗞 𝗫𝗗 ;Skl11;0;https://i.imgur.com/iiE0PVV.jpeg;https://chat.whatsapp.com/HsSmtZoETQMCfRdkyT1uih',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,2',
     NOT_ALLOWED: process.env.ALLOWED || '91,94,212',
